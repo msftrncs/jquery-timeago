@@ -65,7 +65,7 @@
         years: "%d years",
         wordSeparator: " ",
         cutoff: undefined,
-        localeTitle: function (datetime) {datetime.toLocaleString();},
+        localeTitle: function (datetime) {return datetime.toLocaleString();},
         numbers: []
       }
     },
